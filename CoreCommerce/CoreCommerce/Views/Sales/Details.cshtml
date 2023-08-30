@@ -1,0 +1,56 @@
+﻿@model IEnumerable<CoreCommerce.Models.SaleDetail>
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    decimal total = 0;
+    decimal prix;
+}
+
+<h1>Details</h1>
+
+
+    <h4>Sale</h4>
+    <hr />
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Product.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+            <th>
+                Prix Unitaire
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product.Price)
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            prix = item.Quantity * item.UnitPrice;
+            total += prix;
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Product.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UnitPrice) €
+                </td>
+                <td>
+                    @prix €
+                </td>
+            </tr>
+        }
+        <tr>
+            <td></td>
+            <td></td>
+            <td>TOTAL</td>
+            <td>@total €</td>
+        </tr>
+    </table>

@@ -1,0 +1,58 @@
+﻿@model IEnumerable<CoreCommerce.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Les Produits</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Nom
+            </th>
+            <th>
+                Prix unitaire
+            </th>
+            <th>
+                Image
+            </th>
+            <th>
+                Stock
+            </th>
+            <th>
+                Catégorie
+            </th>
+            <th>
+                <a asp-action="Create"><i class="fa fa-plus fa-2x"></i></a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>           
+            <td>
+                <img src="/image/@Html.DisplayFor(modelItem => item.Image)" style="width:100px; object-fit:cover;" alt="Card image cap">         
+            <td>
+                @Html.DisplayFor(modelItem => item.Stock)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category.Name)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ProductId"><i class="fa fa-pencil fa-2x"></i></a> |
+                <a asp-action="Details" asp-route-id="@item.ProductId"><i class="fa fa-book fa-2x"></i></a> |
+                <a asp-action="Delete" asp-route-id="@item.ProductId"><i class="fa fa-trash fa-2x"></i></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

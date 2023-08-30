@@ -1,0 +1,94 @@
+﻿@model CoreCommerce.Models.Product
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>Product</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" enctype="multipart/form-data">>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ProductId" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Detail" class="control-label"></label>
+                <input asp-for="Detail" class="form-control" />
+                <span asp-validation-for="Detail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Image" class="control-label"></label>
+                <img src="@("~/image/"+Model.Image)" asp-append-version="true" width="250" />
+                <br/>
+                @Model.Image
+                <input asp-for="ImageFile" accept="image/*"/>
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Stock" class="control-label"></label>
+                <input asp-for="Stock" class="form-control" />
+                <span asp-validation-for="Stock" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <select class="form-control form-control-sm w200" id="CategoryId" name="CategoryId">
+                    @Html.Raw(DropdownMLCategories(@Model.CategoryId))
+                </select><br />
+                @Html.ValidationMessageFor(model => model.CategoryId, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+@{
+    string DropdownMLCategories(int selected,int parentId = 0, string submark = "")
+    {
+        string html = "";
+        foreach (var cat in (IList<Category>)ViewData["CategoryId"])
+        {
+            if (cat.ParentId == parentId)
+            {
+                var hasChild = false;
+                foreach (var child in (IList<Category>)ViewData["CategoryId"])
+                {
+                    if (child.ParentId == cat.CategoryId) { hasChild = true; }
+                }
+                if (hasChild == false)
+                {
+                    html += "'<option value=\"" + @cat.CategoryId + "\"";
+                }
+                else
+                {
+                    html += "'<option disabled value=\"" + @cat.CategoryId + "\"";
+                }
+                if (selected == cat.CategoryId) { html += " selected "; }
+                html += ">" + submark + cat.Name + "</option>";
+
+                html += DropdownMLCategories(selected, cat.CategoryId, submark + "--");
+            }
+        }
+
+        return html;
+    }
+}
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

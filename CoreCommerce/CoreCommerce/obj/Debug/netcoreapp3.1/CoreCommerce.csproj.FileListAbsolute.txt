@@ -1,0 +1,348 @@
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\appsettings.json
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\CoreCommerce.exe
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\CoreCommerce.deps.json
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\CoreCommerce.runtimeconfig.json
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\CoreCommerce.runtimeconfig.dev.json
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\CoreCommerce.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\CoreCommerce.pdb
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\CoreCommerce.Views.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\CoreCommerce.Views.pdb
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.csproj.AssemblyReference.cache
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.AssemblyInfoInputs.cache
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.AssemblyInfo.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.csproj.CoreCompileInputs.cache
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.MvcApplicationPartsAssemblyInfo.cache
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.RazorAssemblyInfo.cache
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.RazorAssemblyInfo.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\staticwebassets\CoreCommerce.StaticWebAssets.Manifest.cache
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\staticwebassets\CoreCommerce.StaticWebAssets.xml
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\scopedcss\bundle\CoreCommerce.styles.css
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.TagHelpers.input.cache
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.TagHelpers.output.cache
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.RazorCoreGenerate.cache
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.RazorTargetAssemblyInfo.cache
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.RazorTargetAssemblyInfo.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.Views.pdb
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.csproj.CopyComplete
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.pdb
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.genruntimeconfig.cache
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Categories\Create.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Categories\Delete.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Categories\Details.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Categories\Edit.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Categories\Index.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Products\Create.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Products\Delete.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Products\Details.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Products\Edit.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Products\Index.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Sales\Create.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Sales\Delete.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Sales\Details.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Sales\Edit.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Sales\Index.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutAdmin.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Users\Create.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Users\Delete.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Users\Details.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Users\Edit.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Users\Index.cshtml.g.cs
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.GeneratedMSBuildEditorConfig.editorconfig
+C:\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Users\Connect.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\appsettings.json
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\CoreCommerce.StaticWebAssets.xml
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\CoreCommerce.exe
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\CoreCommerce.deps.json
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\CoreCommerce.runtimeconfig.json
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\CoreCommerce.runtimeconfig.dev.json
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\CoreCommerce.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\CoreCommerce.pdb
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\CoreCommerce.Views.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\CoreCommerce.Views.pdb
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.csproj.AssemblyReference.cache
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.AssemblyInfoInputs.cache
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.AssemblyInfo.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.csproj.CoreCompileInputs.cache
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.MvcApplicationPartsAssemblyInfo.cache
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.RazorAssemblyInfo.cache
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.RazorAssemblyInfo.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\staticwebassets\CoreCommerce.StaticWebAssets.Manifest.cache
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\staticwebassets\CoreCommerce.StaticWebAssets.Pack.cache
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.CoreCommerce.Microsoft.AspNetCore.StaticWebAssets.props
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.CoreCommerce.props
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.CoreCommerce.props
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.CoreCommerce.props
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.TagHelpers.input.cache
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.TagHelpers.output.cache
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.RazorCoreGenerate.cache
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Categories\Create.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Categories\Delete.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Categories\Details.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Categories\Edit.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Categories\Index.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Products\Create.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Products\Delete.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Products\Details.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Products\Edit.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Products\Index.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Sales\Create.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Sales\Delete.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Sales\Details.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Sales\Edit.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Sales\Index.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutAdmin.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Users\Connect.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Users\Create.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Users\Delete.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Users\Details.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Users\Edit.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\Users\Index.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.RazorTargetAssemblyInfo.cache
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.RazorTargetAssemblyInfo.cs
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.Views.pdb
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.csproj.CopyComplete
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.dll
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.pdb
+D:\VS2019 Solutions\CoreCommerce\CoreCommerce\CoreCommerce\obj\Debug\netcoreapp3.1\CoreCommerce.genruntimeconfig.cache

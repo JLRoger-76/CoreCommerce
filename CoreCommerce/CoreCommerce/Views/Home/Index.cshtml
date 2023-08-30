@@ -1,0 +1,390 @@
+﻿@model IEnumerable<CoreCommerce.Models.Product>
+@{
+    ViewData["Title"] = "Home Page";
+    var parameters = ViewBag.parameters;
+    var productDiplayed = new List<Product>();
+
+    string DropdownMLCategories(int parentId = 0, string submark = "", int selected = 0)
+    {
+        string html = "";
+        foreach (var cat in (IList<Category>)ViewData["CategoryId"])
+        {
+            if (cat.ParentId == parentId)
+            {
+                var hasChild = false;
+                foreach (var child in (IList<Category>)ViewData["CategoryId"])
+                {
+                    if (child.ParentId == cat.CategoryId) { hasChild = true; }
+                }
+                if (hasChild == false)
+                {
+                    html += "'<option value=\"" + @cat.CategoryId + "\">";
+                }
+                else
+                {
+                    html += "'<option disabled value=\"" + @cat.CategoryId + "\">";
+                }
+                if (selected == cat.CategoryId) { html += " selected "; }
+                html += ">" + submark + cat.Name + "</option>";
+
+                html += DropdownMLCategories(cat.CategoryId, submark + "--");
+            }
+        }
+
+        return html;
+    }
+}
+
+<!-- Button trigger modal -->
+<button type="button" id="cartButton" class="btn btn-success" data-toggle="modal" data-target="#cart">
+    Panier:vide
+</button>
+<!-- Modal -->
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Mon Panier</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <table class="table table-bordered" id="listCart">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>Nom</th>
+
+                            <th>Quantite</th>
+                            <th>Prix Unit</th>
+                            <th>Prix</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="bodyListCart"></tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>Total</td>
+                            <td align="right" id="total"></td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <div id="commandCart" style="display: none;">
+                    <button type="button" class="save btn btn-primary">Enregistrer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<div id="loader"></div>
+<form>
+    <div class="form-inline">
+        <select id="categories" class="form-control-sm ">
+            @Html.Raw(DropdownMLCategories())
+        </select>
+        <select id="productsByPage" class="form-control-sm">
+            @for (int i = 1; i < 4; i++)
+            {
+                if (i == parameters.productsByPage)
+                {
+                    <option value=@i selected>@i par page</option>
+                }
+                else
+                {
+                    <option value=@i>@i par page</option>
+                }
+            }
+        </select>
+        <select id="sort" class="form-control-sm">
+            <option value="1" selected="@(parameters.sort == 1)">Nom croissant</option>
+            <option value="2" selected="@(parameters.sort == 2)">Nom décroissant</option>
+        </select>
+        <div class="input-group">
+            <div class="input-group-append">
+                <input type="search" id="string" name="string" class="form-control" aria-label="recherche" placeholder=@parameters.searchTerm>
+            </div>
+            <div class="input-group-append">
+                <button id="search" type="button" class="btn btn-outline-primary">Rechercher</button>
+            </div>
+        </div>
+    </div>
+
+    <nav>
+        <ul id="pagination" class="pagination justify-content-center">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+    </nav>
+
+</form>
+
+<div class="container">
+    <div class="row" id="productCards">
+    </div>
+</div>
+
+@section Scripts
+{
+    <script>
+        function sorting(a, b) {
+            if (a.name == b.name) {
+                return 0;
+            } else if (a.name > b.name) {
+                return 1;
+            }
+            return -1;
+        }
+
+        $(document).ready(function () {
+            $.showPage = function () {
+                if (nbProducts > 0) {//50
+                    //var nbProductsByPage = $("#productsByPage").children("option:selected").val();//2
+                    var nbPagesTotal = Math.ceil(nbProducts / parameters.productsByPage);// 50/2 = 25
+                    //var nbPagesAffichable = 2;//1 à 10,11 à 20..;
+                    //var FirstPageAffiché = 1;// 1,11,21 par bouton preview/next
+                    var pagination = $('#pagination');
+                    pagination.empty();
+                    if (FirstPageAffiché > nbPagesAffichable) {
+                        pagination.append('<li class="page-item"><a class="page-link" href="#">Previous</a></li>');
+                    }
+                    for (i = FirstPageAffiché; i <= Math.min(nbPagesTotal, FirstPageAffiché + nbPagesAffichable-1); i++) {
+                        pagination.append('<li class="page-item"><a class="page-link" href="#">' + i + '</a></li>');
+                    }
+                    if (nbPagesTotal > FirstPageAffiché + nbPagesAffichable - 1) {//25>10
+                        pagination.append('<li class="page-item"><a class="page-link" href="#">Next</a></li>');
+                    }
+                }
+            };
+
+            $.showProducts = function (page) {
+                console.log(parameters);
+
+                nbProducts=0
+
+                var data = @Html.Raw(Json.Serialize(@Model));
+                var productSelected = [];
+                //recherche
+                $.each(data, function (index, product) {
+                    if ((product["categoryId"] == parameters.categoryId) &&
+                        (product["name"].indexOf(parameters.searchTerm) != -1))
+                    {
+                        productSelected.push(product);
+                    };
+                });
+                //tri
+                productSelected.sort(sorting);
+                if (parameters.sort == "2") { productSelected.reverse(); }
+                //affichage
+                var productCards = $('#productCards');
+                productCards.empty();
+                $.each(productSelected, function (index, product) {
+                    nbProducts++;
+                    if (nbProducts > parameters.productsByPage * (page - 1) &&
+                        nbProducts <= parameters.productsByPage * page) {
+                        col = $('<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center"></div>');
+                        card = $(' <div class="card bg-info"></div>');
+                        cardimg = $('<img class="card-img-top img-fluid" src="/image/' + product["image"] + '" style="width:100%; height:40vh; object-fit:cover;" alt="Card image cap">');
+                        cardbody = $(' <div class="card-body"></div>');
+                        cardbody.append($('<h4 class="card-title text-center">' + product["name"] + '</h4>'));
+                        cardbody.append($('<h5 class="card-text">' + parseFloat(product["price"]).toFixed(2) + ' €</h5>'));
+                        cardbody.append($('<p class="card-text">' + product["detail"] + '</p>'));
+                        cardbody.append($('<button type="button" class="add btn btn-success" data-product=\'' + JSON.stringify(product) + '\' name="' + product["price"] + '" value=' + product["productId"] + '>Ajouter au panier</button><br>'));
+                        cardfooter = $(' <div class="card-footer" style="height:10px; background-color:white"></div>');
+                        card.append(cardimg);
+                        card.append(cardbody);
+                        card.append(cardfooter);
+                        col.append(card);
+                        productCards.append(col);
+                    };
+                });
+            }
+
+            $("#categories").change(function () {
+                parameters.categoryId = $(this).val();
+                $.showProducts(page);
+                $.showPage();
+            });
+
+            $(".pagination").on('click', 'a', function () {
+                var nextpage = $(this).html();
+                if (nextpage == "Next") {
+                    FirstPageAffiché += nbPagesAffichable;
+                    nextpage = FirstPageAffiché;
+                }
+                if (nextpage == "Previous") {
+                    FirstPageAffiché -= nbPagesAffichable;
+                    nextpage = FirstPageAffiché;
+                }
+                $.showPage();
+                $.showProducts(nextpage);
+            });
+
+            $("#sort").change(function () {
+                parameters.sort = $(this).val();
+                $.showProducts(page);
+            });
+
+            $("#search").click(function () {
+                parameters.searchTerm = $("#string").val();
+                $.showProducts(page);
+                $.showPage();
+            });
+
+            $("#productsByPage").change(function () {
+                parameters.productsByPage = $(this).val();
+                $.showPage();
+                $.showProducts(page);
+            });
+
+        //Cart gestion
+            $.initCart = function () {
+                var cart = {};
+                cart.products = [];
+                localStorage.setItem('cart', JSON.stringify(cart));
+            };
+
+            //add Product to Cart
+            $('#productCards').on("click", "button.add", function () {
+                var addProduct = ($(this).data("product"));
+                var flag = true;
+                var pid = addProduct.productId;
+                var cart = JSON.parse(localStorage.getItem('cart'));
+                total = 0;
+                if (cart.products.length == 0) {
+                    $('#commandCart').show();
+                }
+                //cherche si nouveau produit
+                if (localStorage && localStorage.getItem('cart')) {
+                    $.each(cart.products, function (key, value) {
+                        if (value.productId == pid) {
+                            flag = false;
+                        }
+                        total += value.quantity * value.price;
+                    });
+                }
+                if (flag) {
+                    addProduct.productId = $(this).attr("value");
+                    addProduct.quantity = 1;
+                    cart.products.push(addProduct);
+                    localStorage.setItem('cart', JSON.stringify(cart));
+
+                    var bodyListCart = $('#bodyListCart');
+                    row = $('<tr></tr>');
+                    row.append($('<td>' + addProduct.name + '</td>'));
+                    row.append($('<td><input style="width:5rem !important;" type="number" id="' + addProduct.productId + '" class="quantity" value="1" min="1"></td>'));
+                    row.append($('<td align="right" class="punit">' + parseFloat(addProduct.price).toFixed(2) + ' €</td>'));
+                    row.append($('<td align="right" class="price">' + parseFloat(addProduct.price).toFixed(2) + ' €</td>'));
+                    row.append($('<td><button type="button" class="delete btn btn-danger" value=' + addProduct.productId + '>Supprimer</button></td>'));
+                    bodyListCart.append(row);
+                    total += addProduct.price;
+                    $('#total').html(parseFloat(total).toFixed(2) + ' €');
+                    $("#cartButton").html('Panier:' + parseFloat(total).toFixed(2) + ' €');
+                }
+            });
+
+
+            $('#bodyListCart').on('input', 'input.quantity', function () {
+                var qty = $(this).val();
+                var punit = parseFloat($(this).closest('tr').find('.punit').html());
+                $(this).closest('tr').find('.price').html(parseFloat(punit * qty).toFixed(2) + ' €');
+                var cart = JSON.parse(localStorage.getItem('cart'));
+                var id = $(this).attr("id");
+                total = 0;
+                $.each(cart.products, function (key, value) {
+                    if (value.productId == id) {
+                        value.quantity = qty;
+                    }
+                    total += value.quantity * value.price;
+                });
+
+                $('#total').html((parseFloat(total).toFixed(2)) + ' €');
+                $("#cartButton").html('Panier:' + parseFloat(total).toFixed(2) + ' €');
+                localStorage.setItem('cart', JSON.stringify(cart));
+            })
+
+            $('#bodyListCart').on("click", "button.delete", function () {
+                var cart = JSON.parse(localStorage.getItem('cart'));
+                var id = $(this).attr("value");
+                total = 0;
+                $.each(cart.products, function (index, value) {
+                    if (value.productId == id) {
+                        cart.products.splice(index, 1);
+                        localStorage.setItem('cart', JSON.stringify(cart));
+                    } else {
+                        total += value.quantity * value.price;
+                    }
+                });
+                if (cart.products.length == 0) {
+                    $('#commandCart').hide();
+                }
+                $('#total').html((parseFloat(total).toFixed(2)) + ' €');
+                $(this).closest('tr').remove();
+                $("#cartButton").html('Panier:' + parseFloat(total).toFixed(2) + ' €');
+            });
+
+            $('#commandCart').on("click", "button.save", function () {
+                var Sale = new Object();
+                Sale.SalePrice = total;
+                Sale.SaleDate = new Date();
+                var result = JSON.stringify(Sale);
+                $.ajax({
+                    url: '../api/SalesAPI/',
+                    type: 'POST',
+                    contentType: 'application/json; charset=utf-8',
+                    dataType: 'json',
+                    data: result,
+                    success: function (data, textStatus, xhr) {
+
+                        var cart = JSON.parse(localStorage.getItem('cart'));
+                        var SaleDetail = new Object();
+                        $.each(cart.products, function (index, value) {
+                            SaleDetail.UnitPrice = value.price;
+                            SaleDetail.Quantity = parseInt(value.quantity);
+                            SaleDetail.ProductId = parseInt(value.productId);
+                            SaleDetail.SaleId = data.saleId;
+                            var result = JSON.stringify(SaleDetail);
+                            console.log(result);
+                            $.ajax({
+                                url: '../api/SaleDetailsAPI/',
+                                type: 'POST',
+                                contentType: 'application/json; charset=utf-8',
+                                dataType: 'json',
+                                data: result,
+                                success: function (data, textStatus, xhr) {
+                                    console.log(data);
+                                },
+                                error: function (xhr, textStatus, errorThrown) {
+                                    console.log('Error in detail');
+                                }
+                            });
+                        });
+                    },
+                    error: function (xhr, textStatus, errorThrown) {
+                        console.log('Error in Operation');
+                    }
+
+                });
+                $('#commandCart').hide();
+            });
+
+            //Initiate
+            var parameters = { categoryId:3,productsByPage:1,sort:1,searchTerm:""};
+            var nbProducts;
+            var total = 0;
+            var page = 1;
+            var nbPagesAffichable = 2;//1 à 10,11 à 20..;
+            var FirstPageAffiché = 1;// 1,11,21 par bouton preview/next
+            $.initCart();
+            $.showProducts();
+            $.showPage();
+        });
+    </script>
+}
+
+
